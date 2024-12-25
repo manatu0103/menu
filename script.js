@@ -18,17 +18,57 @@ const products = [
         price: "4,000円",
         description: "デスクワーク中のリラックスに最適です。",
     },
-      {
+    {
         name: "ストレス解消グッズD",
         image: "https://via.placeholder.com/200",
-        price: "4,000円",
+        price: "5,000円",
         description: "デスクワーク中のリラックスに最適です。",
     },
+    {
+        name: "ストレス解消グッズE",
+        image: "https://via.placeholder.com/200",
+        price: "5,000円",
+        description: "デスクワーク中のリラックスに最適です。",
+    },
+    {
+        name: "ストレス解消グッズF",
+        image: "https://via.placeholder.com/200",
+        price: "5,000円",
+        description: "デスクワーク中のリラックスに最適です。",
+    },
+    {
+        name: "ストレス解消グッズG",
+        image: "https://via.placeholder.com/200",
+        price: "5,000円",
+        description: "デスクワーク中のリラックスに最適です。",
+    },
+    {
+        name: "ストレス解消グッズH",
+        image: "https://via.placeholder.com/200",
+        price: "5,000円",
+        description: "デスクワーク中のリラックスに最適です。",
+    },
+    {
+        name: "ストレス解消グッズI",
+        image: "https://via.placeholder.com/200",
+        price: "5,000円",
+        description: "デスクワーク中のリラックスに最適です。",
+    },
+
+    {
+        name: "ストレス解消グッズJ",
+        image: "https://via.placeholder.com/200",
+        price: "5,000円",
+        description: "デスクワーク中のリラックスに最適です。",
+    },
+
+
 ];
 
 // HTML要素を取得
-const productList = document.getElementById("product-list");
+const productList = document.querySelector(".product-list"); // クラス名で取得
 const productDetails = document.getElementById("product-details");
+
 
 // 商品リストを表示
 products.forEach((product, index) => {
