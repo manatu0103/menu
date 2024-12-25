@@ -18,6 +18,12 @@ const products = [
         price: "4,000円",
         description: "デスクワーク中のリラックスに最適です。",
     },
+      {
+        name: "ストレス解消グッズD",
+        image: "https://via.placeholder.com/200",
+        price: "4,000円",
+        description: "デスクワーク中のリラックスに最適です。",
+    },
 ];
 
 // HTML要素を取得
